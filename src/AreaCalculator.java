@@ -12,7 +12,7 @@ public class AreaCalculator {
             if (scanner.hasNextInt()) {
                 int userChoice = scanner.nextInt();
 
-                switch (userChoice) {
+                switch (userChoice) {   
                     case 0: {
                         System.out.println("Saindo...");
                         scanner.close();
